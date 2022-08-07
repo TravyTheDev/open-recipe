@@ -8,8 +8,10 @@
     "npm": "8.9.0"
   },
   "scripts": {
-    "dev": "nodemon server.js",
-    "start": "node server.js",
+    "start": "node server/server.js",
+    "server": "nodemon server/server.js",
+    "client": "npm start --prefix frontend",
+    "dev": "concurrently \"npm run server\"",
     "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client"
   },
   "author": "",
