@@ -13,7 +13,7 @@
     border-radius: 5px;
 }
 
-/* media queries */
+
 @media (max-width: 464px) {
     .my-recipes {
         display: grid;
