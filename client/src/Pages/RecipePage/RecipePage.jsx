@@ -77,11 +77,11 @@ const RecipePage = () => {
         
         <div className='likes'>
         <span>
-          <img src={isLiked ? Like : Notlike} alt='Like Icon' style={{cursor: "pointer", width: '17px', paddingTop: '5px'}} onClick={handleLike} /> Likes: {like} 
+         {user && <img src={isLiked ? Like : Notlike} alt='Like Icon' style={{cursor: "pointer", width: '17px', paddingTop: '5px'}} onClick={handleLike} />} Likes: {like} 
           </span>
 
           <span>
-          <img src={isDisliked ? Disliked : Dislike} alt='Dislike Icon' style={{cursor: "pointer", width: '17px', paddingTop: '5px'}} onClick={handledislike} /> Dislikes: {dislike}
+          {user && <img src={isDisliked ? Disliked : Dislike} alt='Dislike Icon' style={{cursor: "pointer", width: '17px', paddingTop: '5px'}} onClick={handledislike} />} Dislikes: {dislike}
           </span>
         </div>
         
