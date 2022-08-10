@@ -20,3 +20,5 @@ I wanted personalized accounts, linked recipes, comments, likes and dislikes, as
 You won't have data if you don't actively fetch the data whenever you need it. At first I figured because I was keeping the user state with redux that I'd just have data when I needed it, but nothing loads at first unless you call the API. 
 
 Usually when you pass a body from your API, at least in my case, you only need to pass 1 thing, you don't need to pass an object or it won't be passed correctly. Then in your function to pass data you need to label everything correctly so your route knows what's coming. 
+
+Heroku is very finicky and everything has to be perfect or you will have bugs. If you see commits like "I don't know" it's because I had spent multiple hours changing very tiny things which turned out to make all the difference and was getting frustrated at all the bugs I kept getting. It's kind of funny everything worked when the commit was "I don't know" on the package-lock.json and .env, both of which I never actually changed. 
