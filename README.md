@@ -16,6 +16,8 @@ I wanted personalized accounts, linked recipes, comments, likes and dislikes, as
 
 2: I should have added set character limits and fixed heights for the pictures on the front page reel.
 
+3. There's cat pictures instead of loading screens or spinners... probably should have done a loading screen or a spinner.
+
 ### Lessons Learned:
 You won't have data if you don't actively fetch the data whenever you need it. At first I figured because I was keeping the user state with redux that I'd just have data when I needed it, but nothing loads at first unless you call the API. 
 
