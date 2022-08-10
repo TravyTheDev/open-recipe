@@ -8,7 +8,8 @@
 
 .preview-pic {
     width: 300px;
-    object-fit: contain;
+    height: 208px;
+    object-fit: cover;
     border-radius: 10px;
     margin-left: 25px;
 }
