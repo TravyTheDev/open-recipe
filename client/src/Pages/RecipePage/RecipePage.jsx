@@ -73,7 +73,7 @@ const RecipePage = () => {
     <div className='recipe-page'>
         <Link to={`/profile/${recipe.userId}`}><p>By: {recipe.userName}</p></Link>
         <p className='recipe-name'>{recipe.name}</p>
-        <img style={{width: '500px', maxWidth: '90%'}} src={recipe.pictures ? recipe.pictures[0].url : "https://placekitten.com/200/300" } />
+        <img style={{width: '500px', maxWidth: '90%'}} src={recipe.pictures ? recipe.pictures[0].url : "" } />
         
         <div className='likes'>
         <span>
