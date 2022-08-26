@@ -16,7 +16,7 @@ I wanted personalized accounts, linked recipes, comments, likes and dislikes, as
 
 2: I should have added set character limits and fixed heights for the pictures on the front page reel.
 
-3: There's cat pictures instead of loading screens or spinners... probably should have done a loading screen or a spinner.
+3: I probably should have done a loading screen or a spinner.
 
 4: There should be a function to reset passwords.
 
