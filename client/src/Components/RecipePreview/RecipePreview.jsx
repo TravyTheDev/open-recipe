@@ -14,7 +14,7 @@ const RecipePreview = ({_id, userId, category, name, pictures, ingredients, user
             </Link>
             <p style={{display: 'none'}}>{ingredients}</p>
             {/* <Link to={`/category/${category}`}><p>{category}</p></Link> */}
-            <p style={{marginLeft: 25}}>By: <Link to={`/profile/${userName}`}>{userName}</Link></p>
+            <p style={{marginLeft: 25}}>By: <Link to={`/profile/${userId}`}>{userName}</Link></p>
         </div>
     </div>
   )
